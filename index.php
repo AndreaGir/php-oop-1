@@ -1,3 +1,12 @@
+<?php
+
+require_once __DIR__.'/movie.php';
+
+
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,6 +16,14 @@
     <title>Document</title>
 </head>
 <body>
+
+
+<ul>
+    <li>
+        <?php  echo $films->getFullmovie();   ?>
+    </li>
+    
+</ul>
     
 </body>
 </html>
