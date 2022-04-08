@@ -14,12 +14,14 @@
            
 
                 public function getFullmovie(){
-                    return $this -> title . $this -> year . $this -> description;
+                    return $this -> title . ' ' . $this -> year . ' ' . $this -> description;
             }
     }
 
-    $films = new Movie ("X-Man","Lorem ipsum dolor sit amet consectetur, adipisicing elit.",2018);
+    
+$films = new Movie ("X-Man","Lorem ipsum dolor sit amet consectetur, adipisicing elit.",2018);
 
+$filmsDue = new Movie ("Ritorno al passato","Lorem ipsum dolor sit amet consectetur, adipisicing elit.",1997);
     
 
 

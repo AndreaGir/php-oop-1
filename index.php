@@ -22,6 +22,9 @@ require_once __DIR__.'/movie.php';
     <li>
         <?php  echo $films->getFullmovie();   ?>
     </li>
+    <li>
+        <?php  echo $filmsDue->getFullmovie();   ?>
+    </li>
     
 </ul>
     
